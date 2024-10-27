@@ -50,6 +50,9 @@
 }
 
 @layer base {
+  html {
+    font-size: 200%; /* 将默认的 16px 调整到 18px，增大一号字体 */
+  }
   * {
     @apply border-border font-sans;
   }
